@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Xamrai Gym Band — line drawing">
+  <rect width="800" height="1000" fill="#e3dccd"/>
+  <g fill="none" stroke="#1c1a17" stroke-width="2">
+    <!-- strap loop -->
+    <path d="M250 300 C 150 380 150 620 250 700" stroke-width="56" stroke="#2a2723"/>
+    <path d="M550 300 C 650 380 650 620 550 700" stroke-width="56" stroke="#2a2723"/>
+    <path d="M250 700 C 320 760 480 760 550 700" stroke-width="56" stroke="#2a2723"/>
+    <path d="M250 300 C 320 240 480 240 550 300" stroke-width="56" stroke="#2a2723" opacity=".25"/>
+    <!-- strap texture -->
+    <g stroke="#57524a" stroke-width="1.5" opacity=".7">
+      <path d="M226 410 l-20 6M222 450 l-22 4M220 490 l-22 2M220 530 l-22 0M222 570 l-22 -2M226 610 l-20 -4"/>
+      <path d="M574 410 l20 6M578 450 l22 4M580 490 l22 2M580 530 l22 0M578 570 l22 -2M574 610 l20 -4"/>
+    </g>
+    <!-- module -->
+    <rect x="270" y="380" width="260" height="240" rx="70" fill="#efeae1" stroke-width="2.5"/>
+    <rect x="286" y="396" width="228" height="208" rx="58" stroke="#57524a"/>
+    <!-- dial A -->
+    <circle cx="350" cy="500" r="48" fill="#a8743f" stroke="none"/>
+    <circle cx="350" cy="500" r="48"/>
+    <circle cx="350" cy="500" r="34" stroke="#efeae1"/>
+    <path d="M350 456 v18" stroke="#efeae1" stroke-width="4" stroke-linecap="round"/>
+    <!-- dial B -->
+    <circle cx="452" cy="500" r="38" fill="#efeae1"/>
+    <circle cx="452" cy="500" r="26"/>
+    <path d="M452 466 v14" stroke-width="4" stroke-linecap="round"/>
+    <g stroke-width="1.5">
+      <path d="M452 452 v6M486 466 l-4 4M500 500 h-6M486 534 l-4 -4M452 548 v-6M418 534 l4 -4M404 500 h6M418 466 l4 4"/>
+    </g>
+  </g>
+  <g font-family="JetBrains Mono, monospace" font-size="15" fill="#57524a" letter-spacing="1.5">
+    <text x="120" y="72">UNBOX / 01</text>
+    <text x="120" y="952">XAMRAI GYM BAND</text>
+    <text x="680" y="952" text-anchor="end">SETS · REPS</text>
+  </g>
+</svg>

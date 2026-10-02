@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Xamrai mechanism, exploded view">
+  <rect width="1600" height="900" fill="#e3dccd"/>
+  <g fill="none" stroke="#1c1a17" stroke-width="2">
+    <path d="M800 90 V 810" stroke-dasharray="6 8" stroke-opacity=".5"/>
+    <!-- top bezel -->
+    <ellipse cx="800" cy="170" rx="220" ry="54" fill="#efeae1"/>
+    <ellipse cx="800" cy="170" rx="150" ry="36"/>
+    <!-- dial ring w/ ticks -->
+    <ellipse cx="800" cy="330" rx="190" ry="46" fill="#a8743f"/>
+    <ellipse cx="800" cy="330" rx="140" ry="34" stroke="#efeae1"/>
+    <g stroke="#efeae1" stroke-width="2">
+      <path d="M800 284 v10M940 330 h-10M660 330 h10M800 376 v-10M900 297 l-6 6M700 297 l6 6M900 363 l-6 -6M700 363 l6 -6"/>
+    </g>
+    <!-- gear -->
+    <g transform="translate(800 490)">
+      <ellipse rx="170" ry="42" fill="#efeae1"/>
+      <ellipse rx="40" ry="10"/>
+      <g stroke-width="6" stroke-linecap="round">
+        <path d="M-170 0 h-18M170 0 h18M0 -42 v-8M0 42 v8M-120 -30 l-10 -6M120 -30 l10 -6M-120 30 l-10 6M120 30 l10 6"/>
+      </g>
+    </g>
+    <!-- detent spring -->
+    <path d="M700 620 q20 -20 40 0 t40 0 t40 0 t40 0 t40 0" stroke-width="3"/>
+    <!-- base housing -->
+    <path d="M580 700 a220 54 0 0 0 440 0 v40 a220 54 0 0 1 -440 0 Z" fill="#2a2723"/>
+    <ellipse cx="800" cy="700" rx="220" ry="54" fill="#efeae1"/>
+  </g>
+  <g font-family="JetBrains Mono, monospace" font-size="16" fill="#1c1a17" letter-spacing="1.2">
+    <g stroke="#1c1a17" stroke-width="1"><path d="M1030 170 H1180M1000 330 H1180M980 490 H1180M900 620 H1180M1030 720 H1180"/></g>
+    <text x="1196" y="175">A — TOP BEZEL</text>
+    <text x="1196" y="335">B — SET DIAL, 0–9</text>
+    <text x="1196" y="495">C — INTERNAL GEAR TRAIN</text>
+    <text x="1196" y="625">D — DETENT / CLICK SPRING</text>
+    <text x="1196" y="725">E — HOUSING, PRINTED</text>
+    <text x="80" y="90" fill="#57524a">FIG. 01 — EXPLODED ASSEMBLY</text>
+    <text x="80" y="850" fill="#57524a">NO BATTERY · NO SCREEN · NO SIGNAL</text>
+  </g>
+</svg>

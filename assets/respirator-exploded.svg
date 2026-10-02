@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Respirator layers, exploded side view">
+  <rect width="1600" height="900" fill="#1c1a17"/>
+  <g fill="none" stroke="#efeae1" stroke-width="2">
+    <path d="M140 450 H1460" stroke-dasharray="6 8" stroke-opacity=".35"/>
+    <!-- seal -->
+    <path d="M330 220 C 270 300 270 600 330 680" stroke="#a8743f" stroke-width="22" stroke-linecap="round"/>
+    <!-- housing -->
+    <path d="M560 210 C 480 300 480 600 560 690 L 620 690 C 560 600 560 300 620 210 Z" fill="#2a2723"/>
+    <!-- filter media -->
+    <g>
+      <rect x="800" y="340" width="30" height="220" rx="4"/>
+      <path d="M800 360 h30M800 380 h30M800 400 h30M800 420 h30M800 440 h30M800 460 h30M800 480 h30M800 500 h30M800 520 h30M800 540 h30" stroke-opacity=".5"/>
+    </g>
+    <!-- cartridge cap -->
+    <path d="M1000 330 h40 a20 20 0 0 1 20 20 v200 a20 20 0 0 1 -20 20 h-40 Z" fill="#2a2723"/>
+    <path d="M1060 380 h20M1060 420 h20M1060 460 h20M1060 500 h20M1060 540 h20"/>
+    <!-- air flow -->
+    <g stroke="#a8743f" stroke-width="2.5" stroke-linecap="round">
+      <path d="M1340 400 H1160 m14 -10 l-14 10 l14 10"/>
+      <path d="M1340 450 H1160 m14 -10 l-14 10 l14 10"/>
+      <path d="M1340 500 H1160 m14 -10 l-14 10 l14 10"/>
+    </g>
+  </g>
+  <g font-family="JetBrains Mono, monospace" font-size="16" fill="#efeae1" letter-spacing="1.2">
+    <text x="300" y="760" text-anchor="middle">01 SOFT-TOUCH SEAL</text>
+    <text x="560" y="760" text-anchor="middle">02 RIGID HOUSING</text>
+    <text x="815" y="760" text-anchor="middle">03 FILTER MEDIA</text>
+    <text x="1030" y="760" text-anchor="middle">04 TWIST CAP</text>
+    <text x="1250" y="760" text-anchor="middle" fill="#a8743f">AIR IN</text>
+    <text x="80" y="90" fill="#a39b8d">FIG. 02 — LAYER STACK, SIDE SECTION</text>
+    <text x="80" y="850" fill="#a39b8d">SWAP MEDIA · CLEAN · REUSE</text>
+  </g>
+</svg>

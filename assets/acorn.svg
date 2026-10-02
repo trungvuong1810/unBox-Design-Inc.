@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Acorn Lamp — line drawing">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="45%">
+      <stop offset="0" stop-color="#f6d9a6" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#e9c48a" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#e3dccd" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="lattice" width="22" height="38" patternUnits="userSpaceOnUse">
+      <path d="M11 0 L22 9.5 L22 28.5 L11 38 L0 28.5 L0 9.5 Z" fill="none" stroke="#7c5126" stroke-width="1.2"/>
+    </pattern>
+    <clipPath id="nut"><path d="M400 330 C 500 330 545 420 540 500 C 535 590 470 650 400 668 C 330 650 265 590 260 500 C 255 420 300 330 400 330 Z"/></clipPath>
+  </defs>
+  <rect width="800" height="1000" fill="#e3dccd"/>
+  <circle cx="400" cy="480" r="330" fill="url(#glow)"/>
+  <!-- body -->
+  <path d="M400 330 C 500 330 545 420 540 500 C 535 590 470 650 400 668 C 330 650 265 590 260 500 C 255 420 300 330 400 330 Z" fill="#f2e2c3"/>
+  <rect x="240" y="320" width="320" height="360" fill="url(#lattice)" clip-path="url(#nut)" opacity=".75"/>
+  <path d="M400 330 C 500 330 545 420 540 500 C 535 590 470 650 400 668 C 330 650 265 590 260 500 C 255 420 300 330 400 330 Z" fill="none" stroke="#1c1a17" stroke-width="2.5"/>
+  <!-- cap -->
+  <path d="M250 372 C 260 300 330 262 400 262 C 470 262 540 300 550 372 C 500 352 300 352 250 372 Z" fill="#7c5126" stroke="#1c1a17" stroke-width="2.5"/>
+  <g stroke="#1c1a17" stroke-width="1.2" opacity=".5" fill="none">
+    <path d="M290 330 q20 -10 40 0 q20 -10 40 0 q20 -10 40 0 q20 -10 40 0 q20 -10 40 0"/>
+    <path d="M320 298 q20 -10 40 0 q20 -10 40 0 q20 -10 40 0"/>
+  </g>
+  <path d="M400 262 v-40" stroke="#1c1a17" stroke-width="5" stroke-linecap="round"/>
+  <!-- stem + base -->
+  <path d="M400 668 V 880" stroke="#1c1a17" stroke-width="5"/>
+  <ellipse cx="400" cy="888" rx="96" ry="14" fill="#1c1a17"/>
+  <g font-family="JetBrains Mono, monospace" font-size="15" fill="#57524a" letter-spacing="1.5">
+    <text x="120" y="72">UNBOX / 03</text>
+    <text x="120" y="952">ACORN LAMP</text>
+    <text x="680" y="952" text-anchor="end">UNIBODY</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="COVID Medical Respirator — line drawing">
+  <rect width="800" height="1000" fill="#1c1a17"/>
+  <g fill="none" stroke="#efeae1" stroke-width="2">
+    <!-- straps -->
+    <path d="M190 430 C 120 380 110 300 160 250" stroke-dasharray="2 8" stroke-linecap="round" stroke-width="3"/>
+    <path d="M610 430 C 680 380 690 300 640 250" stroke-dasharray="2 8" stroke-linecap="round" stroke-width="3"/>
+    <path d="M200 640 C 120 660 90 720 110 780" stroke-dasharray="2 8" stroke-linecap="round" stroke-width="3"/>
+    <path d="M600 640 C 680 660 710 720 690 780" stroke-dasharray="2 8" stroke-linecap="round" stroke-width="3"/>
+    <!-- seal (soft-touch) -->
+    <path d="M400 250 C 520 250 620 340 630 470 C 640 600 560 730 400 760 C 240 730 160 600 170 470 C 180 340 280 250 400 250 Z" stroke="#a8743f" stroke-width="10" opacity=".9"/>
+    <!-- housing -->
+    <path d="M400 280 C 505 282 590 360 598 470 C 606 590 535 700 400 728 C 265 700 194 590 202 470 C 210 360 295 282 400 280 Z" fill="#2a2723"/>
+    <path d="M400 300 C 400 420 400 600 400 712" stroke-opacity=".35"/>
+    <path d="M230 520 C 300 560 500 560 570 520" stroke-opacity=".35"/>
+    <!-- filter cartridge -->
+    <circle cx="400" cy="560" r="96" fill="#1c1a17"/>
+    <circle cx="400" cy="560" r="78"/>
+    <g stroke-opacity=".6" stroke-width="1.5">
+      <path d="M340 530 h120M332 548 h136M330 566 h140M332 584 h136M340 602 h120"/>
+    </g>
+    <circle cx="400" cy="560" r="96" stroke="#a8743f" stroke-width="3"/>
+  </g>
+  <g font-family="JetBrains Mono, monospace" font-size="15" fill="#a39b8d" letter-spacing="1.5">
+    <text x="120" y="72">UNBOX / 02</text>
+    <text x="120" y="952">MEDICAL RESPIRATOR</text>
+    <text x="680" y="952" text-anchor="end">REUSABLE</text>
+  </g>
+</svg>
